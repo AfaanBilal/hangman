@@ -5,7 +5,7 @@ Author: **Afaan Bilal ([@AfaanBilal](https://github.com/AfaanBilal))**
 Author URL: **[Google+](https://google.com/+AfaanBilal)**
 
 ## Introduction
-**Hangman** is a sample program in C++ to play hangman in a console window.
+**Hangman** is a simple program in C++ to play hangman in a console window.
 
 ## Contributing
 All contributions are welcome. Please create an issue first for any feature request
