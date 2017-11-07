@@ -89,14 +89,39 @@ void cls()
     system("@cls || clear");
 }
 
+void drawHangman()
+{
+    cout << endl;
+    switch (tries)
+    {
+        case 10: 
+                 cout << "\t\t      YOU KILLED ME!" << endl;
+                 cout << "\t\t\t_________ " << endl;
+        case 9:  cout << "\t\t\t    |     " << endl;
+        case 8:  cout << "\t\t\t   ---    " << endl;
+        case 7:  cout << "\t\t\t  |   |   " << endl;
+        case 6:  cout << "\t\t\t   ---    " << endl;
+        case 5:  cout << "\t\t\t----|---- " << endl;
+        case 4:  cout << "\t\t\t    |     " << endl;
+        case 3:  cout << "\t\t\t    |     " << endl;
+        case 2:  cout << "\t\t\t   ---    " << endl;
+        case 1:  cout << "\t\t\t  /   \\  " << endl;
+    }
+    cout << endl << endl;
+}
+
 void display()
 {
     cls();
     
     cout << endl << "\t\t\t" << "HANGMAN" << endl << endl;
+    cout << "\thttps://github.com/AfaanBilal/hangman" << endl << endl;
+    
+    drawHangman();
+
     cout << "\tPress '.' to exit." << endl;
     cout << "\tTries left: " << (maxTries - tries) << endl << endl;
-    cout << "\t\t\t";
+    cout << "\t\t    ";
 
     for (int i = 0; i < wordlist[sel].length(); i++)
     {
