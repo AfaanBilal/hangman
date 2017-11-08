@@ -95,17 +95,19 @@ void drawHangman()
     switch (tries)
     {
         case 10: 
-                 cout << "\t\t      YOU KILLED ME!" << endl;
-                 cout << "\t\t\t_________ " << endl;
-        case 9:  cout << "\t\t\t    |     " << endl;
-        case 8:  cout << "\t\t\t   ---    " << endl;
-        case 7:  cout << "\t\t\t  |   |   " << endl;
-        case 6:  cout << "\t\t\t   ---    " << endl;
-        case 5:  cout << "\t\t\t----|---- " << endl;
-        case 4:  cout << "\t\t\t    |     " << endl;
-        case 3:  cout << "\t\t\t    |     " << endl;
-        case 2:  cout << "\t\t\t   ---    " << endl;
-        case 1:  cout << "\t\t\t  /   \\  " << endl;
+                 cout << "\t\t       YOU KILLED ME!" << endl;
+                 cout << "\t\t\t   _________ " << endl;
+        case 9:  cout << "\t\t\t     |      |" << endl;
+        case 8:  cout << "\t\t\t    ---     |" << endl;
+        case 7:  cout << "\t\t\t   |   |    |" << endl;
+        case 6:  cout << "\t\t\t    ---     |" << endl;
+        case 5:  cout << "\t\t\t ----|----  |" << endl;
+        case 4:  cout << "\t\t\t     |      |" << endl;
+        case 3:  cout << "\t\t\t     |      |" << endl;
+        case 2:  cout << "\t\t\t    ---     |" << endl;
+        case 1:  cout << "\t\t\t   /   \\    |" << endl;
+                 cout << "\t\t\t            |" << endl;
+                 cout << "\t\t\t____________|" << endl;
     }
     cout << endl << endl;
 }
