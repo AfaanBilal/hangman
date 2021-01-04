@@ -1,7 +1,7 @@
 Hangman
 =======
 
-Author: **[Afaan Bilal](https://afaan.me)**  
+Author: **[Afaan Bilal](https://afaan.dev)**  
 
 ## Introduction
 **Hangman** is a simple program in C++ to play hangman in a console window.
